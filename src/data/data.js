@@ -1,6 +1,13 @@
 import { faSpotify, faReact } from '@fortawesome/free-brands-svg-icons'
-import { faDroplet, faCode, faWandMagicSparkles, faGear, faRobot, faArrowsRotate, faSpinner } from '@fortawesome/free-solid-svg-icons'
-
+import {
+  faDroplet,
+  faCode,
+  faWandMagicSparkles,
+  faGear,
+  faRobot,
+  faArrowsRotate,
+  faSpinner,
+} from '@fortawesome/free-solid-svg-icons'
 
 export const skillCards = [
   {
@@ -31,7 +38,8 @@ export const projectCards = [
   {
     id: 1,
     title: 'Spotifly',
-    description: 'A clone of the Twitch.tv website. Built with React, Tailwindcss, and Twitch API.',
+    description:
+      'Bridges the gap between Spotify and Twitch. Running on event subscriptions for instant API responses andd complete playback control.',
     link: 'https://github.com/Kalasky/spotifly#readme',
     github: 'https://github.com/Kalasky/spotifly',
     technologies: ['MongoDB', 'Express.js', 'Twitch API', 'Spotify API', 'Discord API'],
@@ -42,7 +50,8 @@ export const projectCards = [
   {
     id: 2,
     title: 'Pogo Guide',
-    description: 'A clone of the Twitch.tv website. Built with React, Tailwindcss, and Twitch API.',
+    description:
+      'Developed with the goal of providing the Pogostuck community with a comprehensive guide. Running on the MERN stack with a full authentication system.',
     link: 'https://github.com/Kalasky/pogo-guide',
     github: 'https://github.com/Kalasky/pogo-guide',
     technologies: ['React', 'MongoDB', 'Tailwindcss', 'Express.js', 'JWT'],
@@ -53,7 +62,7 @@ export const projectCards = [
   {
     id: 3,
     title: 'Kolor',
-    description: 'A clone of the Twitch.tv website. Built with React, Tailwindcss, and Twitch API.',
+    description: 'Inspired by a Twitch streamer I saw using the same system but manually. I decided to automate it.',
     link: 'https://www.frosky.org',
     github: 'https://github.com/Kalasky/kolor-refactored',
     technologies: ['MongoDB', 'Node.js', 'Twitch API', 'Discord API'],
@@ -77,8 +86,8 @@ export const tokenCards = [
     title: 'Refresh Token Handling',
     description:
       'If the access token is no longer authorized to make requests and the refresh token fails to generate a new access token, the user will be directed to an authentication page where a new refresh token will be generated.',
-      labelIcon: faArrowsRotate,
-      labelIconColor: 'text-blue-500',
+    labelIcon: faArrowsRotate,
+    labelIconColor: 'text-blue-500',
   },
   {
     id: 3,
