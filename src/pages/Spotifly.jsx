@@ -84,7 +84,7 @@ const Spotifly = () => {
   useEffect(() => {
     if (windowWidth < 640) {
       // breakpoint for smaller devices
-      setImageSource(spotiflyCodesm)
+      setImageSource('')
     } else if (windowWidth < 768) {
       // breakpoint for medium devices
       setImageSource(spotiflyCodesm)
@@ -225,11 +225,13 @@ const Spotifly = () => {
                   </dl>
                 </div>
               </div>
-              <img
-                src={imageSource}
-                alt="Product screenshot"
-                className="w-[48rem] lg:max-w-full rounded-xl shadow-xl sm:w-[57rem]"
-              />
+              {windowWidth >= 640 && (
+                <img
+                  src={imageSource}
+                  alt="Product screenshot"
+                  className="w-[48rem] lg:max-w-full rounded-xl shadow-xl sm:w-[57rem]"
+                />
+              )}
             </div>
             <h2
               className="lg:mt-40 max-sm:mt-24 sm:mt-24 font-semibold text-gray-100 max-sm:text-4xl sm:text-6xl text-center"

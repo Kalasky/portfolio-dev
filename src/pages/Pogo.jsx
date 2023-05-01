@@ -66,7 +66,7 @@ const features = [
   },
 ]
 
-const Spotifly = () => {
+const Pogo = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [showBackToTop, setShowBackToTop] = useState(false)
 
@@ -321,4 +321,4 @@ const Spotifly = () => {
   )
 }
 
-export default Spotifly
+export default Pogo

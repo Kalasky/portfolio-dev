@@ -13,7 +13,7 @@ import kolorcreate from '../assets/k.mp4'
 import kolorremove from '../assets/koloremove.mp4'
 
 // utils
-import { scrollToSection, scrollToTop } from '../utils/utils'
+import { scrollToSection } from '../utils/utils'
 
 // components
 import Footer from '../components/Footer'
@@ -46,7 +46,6 @@ const features = [
 ]
 
 const Kolor = () => {
-scrollToTop()
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [showBackToTop, setShowBackToTop] = useState(false)
@@ -84,7 +83,7 @@ scrollToTop()
   useEffect(() => {
     if (windowWidth < 640) {
       // breakpoint for smaller devices
-      setImageSource(kolorsm)
+      setImageSource('')
     } else if (windowWidth < 768) {
       // breakpoint for medium devices
       setImageSource(kolorsm)
@@ -226,11 +225,13 @@ scrollToTop()
                   </div>
                 </div>
               </div>
-              <img
-                src={imageSource}
-                alt="Product screenshot"
-                className="w-[48rem] lg:max-w-full rounded-xl shadow-xl sm:w-[57rem]"
-              />
+              {windowWidth >= 640 && (
+                <img
+                  src={imageSource}
+                  alt="Product screenshot"
+                  className="w-[48rem] lg:max-w-full rounded-xl shadow-xl sm:w-[57rem]"
+                />
+              )}
             </div>
 
             <h2
