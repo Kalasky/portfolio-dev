@@ -5,7 +5,7 @@ import '../index.scss'
 
 export const Skills = () => {
   return (
-    <div className="mt-80">
+    <div className="max-sm:mt-10 mt-56">
       <h2
         className="mt-4 font-semibold text-gray-100 sm:text-2xl text-center"
         style={{ fontSize: '5rem', marginBottom: '2.5rem' }}

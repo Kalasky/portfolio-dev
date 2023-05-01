@@ -173,8 +173,6 @@ const Home = () => {
               src={greeting}
               alt="Product screenshot"
               className="w-[48rem] lg:max-w-full xl:max-w-2xl rounded-xl shadow-xl sm:w-[57rem]"
-              width="{2432}"
-              height={1442}
             />
           </div>
           <div id="skills">
@@ -184,7 +182,7 @@ const Home = () => {
             <Projects />
           </div>
           <h2
-            className="mt-56 font-semibold text-gray-100 sm:text-2xl text-center"
+            className="max-sm:mt-24 mt-56 font-semibold text-gray-100 sm:text-2xl text-center"
             style={{ fontSize: '5rem', marginBottom: '2.5rem' }}
             id="contact"
           >
