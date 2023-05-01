@@ -238,7 +238,7 @@ const Spotifly = () => {
             >
               Viewer playback Control
             </h2>
-            <video className="mt-24 m-auto text-center rounded-xl shadow-xl sm:w-[46rem]" autoPlay muted loop>
+            <video className="mt-24 m-auto text-center rounded-xl shadow-xl sm:w-[46rem]" autoPlay muted loop playsInline>
               <source src={playback} type="video/mp4" />
             </video>
             <h2
@@ -252,6 +252,7 @@ const Spotifly = () => {
               autoPlay
               muted
               loop
+              playsInline
             >
               <source src={spotiflydocs} type="video/mp4" />
             </video>
@@ -262,7 +263,7 @@ const Spotifly = () => {
             >
               Queue System In Action
             </h2>
-            <video className="mt-24 m-auto text-center rounded-xl shadow-xl sm:w-[46rem]" autoPlay muted loop>
+            <video className="mt-24 m-auto text-center rounded-xl shadow-xl sm:w-[46rem]" autoPlay muted loop playsInline>
               <source src={queue} type="video/mp4" />
             </video>
           </div>

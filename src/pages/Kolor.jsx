@@ -242,6 +242,7 @@ const Kolor = () => {
               autoPlay
               muted
               loop
+              playsInline
             >
               <source src={kolormp4} type="video/mp4" />
             </video>
@@ -251,7 +252,7 @@ const Kolor = () => {
             >
               Easily Create Color Tiers
             </h2>
-            <video className="mt-24 m-auto text-center rounded-xl shadow-xl sm:w-[46rem]" autoPlay muted loop>
+            <video className="mt-24 m-auto text-center rounded-xl shadow-xl sm:w-[46rem]" autoPlay muted loop playsInline>
               <source src={kolorcreate} type="video/mp4" />
             </video>
             <h2
@@ -260,7 +261,7 @@ const Kolor = () => {
             >
               Easily Remove Color Tiers
             </h2>
-            <video className="mt-24 m-auto text-center rounded-xl shadow-xl sm:w-[46rem]" autoPlay muted loop>
+            <video className="mt-24 m-auto text-center rounded-xl shadow-xl sm:w-[46rem]" autoPlay muted loop playsInline>
               <source src={kolorremove} type="video/mp4" />
             </video>
           </div>

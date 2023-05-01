@@ -259,7 +259,7 @@ const Spotifly = () => {
             >
               Admin Dashboard
             </h2>
-            <video className="mt-24 m-auto text-center rounded-xl shadow-xl sm:w-[46rem]" autoPlay muted loop>
+            <video className="mt-24 m-auto text-center rounded-xl shadow-xl sm:w-[46rem]" autoPlay muted loop playsInline>
               <source src={adminpogo} type="video/mp4" />
             </video>
             <h2
@@ -284,6 +284,7 @@ const Spotifly = () => {
               autoPlay
               muted
               loop
+              playsInline
             >
               <source src={pogoemailpass} type="video/mp4" />
             </video>
@@ -298,6 +299,7 @@ const Spotifly = () => {
               autoPlay
               muted
               loop
+              playsInline
             >
               <source src={pogoprofile} type="video/mp4" />
             </video>

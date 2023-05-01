@@ -4,7 +4,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { motion } from 'framer-motion'
 
 // assets
-import greeting from '../assets/greeting.svg'
+import greeting from '../assets/carbon.svg'
 import resume from '../assets/resume.pdf'
 
 // components
