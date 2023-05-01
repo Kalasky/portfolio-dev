@@ -246,11 +246,7 @@ const Pogo = () => {
                   </dl>
                 </div>
               </div>
-              <img
-                src={imageSource}
-                alt="Product screenshot"
-                className="w-[48rem] lg:max-w-full rounded-xl shadow-xl sm:w-[57rem]"
-              />
+              <img src={imageSource} alt="Product screenshot" className=" lg:max-w-full rounded-xl shadow-xl" />
             </div>
             <h2
               className="lg:mt-40 max-sm:mt-24 sm:mt-24 font-semibold text-gray-100 max-sm:text-4xl sm:text-6xl text-center"
@@ -270,7 +266,7 @@ const Pogo = () => {
             <img
               src={pogofirebase}
               alt="Product screenshot"
-              className="mt-24 w-[48rem] m-auto text-center lg:max-w-full rounded-xl shadow-xl sm:w-[57rem]"
+              className="mt-24 m-auto text-center lg:max-w-full rounded-xl shadow-xl"
             />
             <h2
               className="lg:mt-40 max-sm:mt-24 sm:mt-24 font-semibold text-gray-100 max-sm:text-4xl sm:text-6xl text-center"
@@ -278,13 +274,7 @@ const Pogo = () => {
             >
               Email Password Reset
             </h2>
-            <video
-              className="mt-24 w-[48rem] m-auto text-center lg:max-w-full rounded-xl shadow-xl sm:w-[57rem]"
-              autoPlay
-              muted
-              loop
-              playsInline
-            >
+            <video className="mt-24  m-auto text-center lg:max-w-full rounded-xl shadow-xl" autoPlay muted loop playsInline>
               <source src={pogoemailpass} type="video/mp4" />
             </video>
             <h2
@@ -293,13 +283,7 @@ const Pogo = () => {
             >
               User Profiles
             </h2>
-            <video
-              className="mt-24 w-[48rem] m-auto text-center lg:max-w-full rounded-xl shadow-xl sm:w-[57rem]"
-              autoPlay
-              muted
-              loop
-              playsInline
-            >
+            <video className="mt-24 m-auto text-center lg:max-w-full rounded-xl shadow-xl" autoPlay muted loop playsInline>
               <source src={pogoprofile} type="video/mp4" />
             </video>
             <h2
@@ -311,7 +295,7 @@ const Pogo = () => {
             <img
               src={comments}
               alt="Product screenshot"
-              className="mt-24 w-[48rem] m-auto text-center lg:max-w-full rounded-xl shadow-xl sm:w-[57rem]"
+              className="mt-24 m-auto text-center lg:max-w-full rounded-xl shadow-xl"
             />
           </div>
         </div>

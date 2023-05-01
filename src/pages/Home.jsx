@@ -5,6 +5,7 @@ import { motion } from 'framer-motion'
 
 // assets
 import greeting from '../assets/greeting.svg'
+import greetingpng from '../assets/greeting.png'
 import resume from '../assets/resume.pdf'
 
 // components
@@ -40,6 +41,33 @@ const Home = () => {
       window.removeEventListener('scroll', handleScroll)
     }
   }, [])
+
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth)
+  const [imageSource, setImageSource] = useState(greeting)
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth)
+    }
+
+    window.addEventListener('resize', handleResize)
+
+    return () => {
+      window.removeEventListener('resize', handleResize)
+    }
+  }, [])
+
+  useEffect(() => {
+    if (windowWidth < 640) {
+      // breakpoint for smaller devices
+      setImageSource(greetingpng)
+    } else if (windowWidth < 768) {
+      // breakpoint for medium devices
+      setImageSource(greeting)
+    } else {
+      setImageSource(greeting)
+    }
+  }, [windowWidth])
 
   return (
     <div className="bg-slate-900">
@@ -169,11 +197,8 @@ const Home = () => {
                 </a>
               </div>
             </div>
-            <img
-              src={greeting}
-              alt="Product screenshot"
-              className="lg:max-w-full xl:max-w-2xl rounded-xl shadow-xl"
-            />
+
+            <img src={imageSource} alt="Product screenshot" className="lg:max-w-full rounded-xl shadow-xl" />
           </div>
           <div id="skills">
             <Skills />

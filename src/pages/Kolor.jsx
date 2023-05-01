@@ -46,7 +46,6 @@ const features = [
 ]
 
 const Kolor = () => {
-
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [showBackToTop, setShowBackToTop] = useState(false)
 
@@ -226,11 +225,7 @@ const Kolor = () => {
                 </div>
               </div>
               {windowWidth >= 640 && (
-                <img
-                  src={imageSource}
-                  alt="Product screenshot"
-                  className="w-[48rem] lg:max-w-full rounded-xl shadow-xl sm:w-[57rem]"
-                />
+                <img src={imageSource} alt="Product screenshot" className="lg:max-w-full rounded-xl shadow-xl" />
               )}
             </div>
 
@@ -240,13 +235,7 @@ const Kolor = () => {
             >
               Discord and Twitch Integration
             </h2>
-            <video
-              className="mt-24 w-[48rem] m-auto text-center lg:max-w-full rounded-xl shadow-xl sm:w-[57rem]"
-              autoPlay
-              muted
-              loop
-              playsInline
-            >
+            <video className="mt-24 m-auto text-center lg:max-w-full rounded-xl shadow-xl " autoPlay muted loop playsInline>
               <source src={kolormp4} type="video/mp4" />
             </video>
             <h2
@@ -255,7 +244,7 @@ const Kolor = () => {
             >
               Easily Create Color Tiers
             </h2>
-            <video className="mt-24 m-auto text-center rounded-xl shadow-xl sm:w-[46rem]" autoPlay muted loop playsInline>
+            <video className="mt-24 m-auto text-center rounded-xl shadow-xl" autoPlay muted loop playsInline>
               <source src={kolorcreate} type="video/mp4" />
             </video>
             <h2
@@ -264,7 +253,7 @@ const Kolor = () => {
             >
               Easily Remove Color Tiers
             </h2>
-            <video className="mt-24 m-auto text-center rounded-xl shadow-xl sm:w-[46rem]" autoPlay muted loop playsInline>
+            <video className="mt-24 m-auto text-center rounded-xl shadow-xl" autoPlay muted loop playsInline>
               <source src={kolorremove} type="video/mp4" />
             </video>
           </div>

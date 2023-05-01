@@ -226,11 +226,7 @@ const Spotifly = () => {
                 </div>
               </div>
               {windowWidth >= 640 && (
-                <img
-                  src={imageSource}
-                  alt="Product screenshot"
-                  className="w-[48rem] lg:max-w-full rounded-xl shadow-xl sm:w-[57rem]"
-                />
+                <img src={imageSource} alt="Product screenshot" className="lg:max-w-full rounded-xl shadow-xl" />
               )}
             </div>
             <h2
@@ -239,7 +235,7 @@ const Spotifly = () => {
             >
               Viewer playback Control
             </h2>
-            <video className="mt-24 m-auto text-center rounded-xl shadow-xl sm:w-[46rem]" autoPlay muted loop playsInline>
+            <video className="mt-24 m-auto text-center rounded-xl shadow-xl" autoPlay muted loop playsInline>
               <source src={playback} type="video/mp4" />
             </video>
             <h2
@@ -248,13 +244,7 @@ const Spotifly = () => {
             >
               Clear And Concise Documentation
             </h2>
-            <video
-              className="mt-24 w-[48rem] m-auto text-center lg:max-w-full rounded-xl shadow-xl sm:w-[57rem]"
-              autoPlay
-              muted
-              loop
-              playsInline
-            >
+            <video className="mt-24 m-auto text-center lg:max-w-full rounded-xl shadow-xl" autoPlay muted loop playsInline>
               <source src={spotiflydocs} type="video/mp4" />
             </video>
             <TokenManagement />
@@ -264,7 +254,7 @@ const Spotifly = () => {
             >
               Queue System In Action
             </h2>
-            <video className="mt-24 m-auto text-center rounded-xl shadow-xl sm:w-[46rem]" autoPlay muted loop playsInline>
+            <video className="mt-24 m-auto text-center rounded-xl shadow-xl" autoPlay muted loop playsInline>
               <source src={queue} type="video/mp4" />
             </video>
           </div>
