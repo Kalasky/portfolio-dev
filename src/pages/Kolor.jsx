@@ -13,7 +13,7 @@ import kolorcreate from '../assets/k.mp4'
 import kolorremove from '../assets/koloremove.mp4'
 
 // utils
-import { scrollToSection } from '../utils/utils'
+import { scrollToSection, scrollToTop } from '../utils/utils'
 
 // components
 import Footer from '../components/Footer'
@@ -46,6 +46,8 @@ const features = [
 ]
 
 const Kolor = () => {
+scrollToTop()
+
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [showBackToTop, setShowBackToTop] = useState(false)
 

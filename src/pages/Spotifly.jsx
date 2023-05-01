@@ -49,7 +49,6 @@ const features = [
 
 const Spotifly = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-
   const [showBackToTop, setShowBackToTop] = useState(false)
 
   useEffect(() => {

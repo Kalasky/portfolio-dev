@@ -4,7 +4,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { motion } from 'framer-motion'
 
 // assets
-import greeting from '../assets/carbon.svg'
+import greeting from '../assets/greeting.svg'
 import resume from '../assets/resume.pdf'
 
 // components
@@ -172,7 +172,7 @@ const Home = () => {
             <img
               src={greeting}
               alt="Product screenshot"
-              className="w-[48rem] lg:max-w-full xl:max-w-2xl rounded-xl shadow-xl sm:w-[57rem]"
+              className="lg:max-w-full xl:max-w-2xl rounded-xl shadow-xl"
             />
           </div>
           <div id="skills">
