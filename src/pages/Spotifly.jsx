@@ -212,7 +212,7 @@ const Spotifly = () => {
                     create their own unique playlists. Spotifly brings a new level of interactivity to Twitch streams, making
                     music a shared experience for streamers and viewers.
                   </p>
-                  <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-white lg:max-w-none">
+                  <div className="mt-10 max-w-xl space-y-8 text-base leading-7 text-white lg:max-w-none">
                     {features.map((feature) => (
                       <div key={feature.name} className="relative pl-9">
                         <div className="inline font-semibold text-lime-400">
@@ -222,7 +222,7 @@ const Spotifly = () => {
                         <div className="inline"> {feature.description}</div>
                       </div>
                     ))}
-                  </dl>
+                  </div>
                 </div>
               </div>
               {windowWidth >= 640 && (

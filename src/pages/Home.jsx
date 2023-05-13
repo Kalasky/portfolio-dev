@@ -12,6 +12,7 @@ import resume from '../assets/resume.pdf'
 import { Skills } from '../components/Cards'
 import Projects from '../components/Projects'
 import Footer from '../components/Footer'
+import EmailForm from '../components/EmailForm'
 
 // utils
 import { scrollToSection } from '../utils/utils'
@@ -217,14 +218,7 @@ const Home = () => {
             I am currently available for full-time, part-time, freelance, and internship opportunities. My preferred method of
             communication is email, and I typically respond within 24 hours.
           </p>
-          <div className="mt-10 m-auto text-center">
-            <a
-              onClick={() => window.open('mailto:kalaskyr@gmail.com')}
-              className="rounded-md cursor-pointer bg-indigo-600 px-7 py-3 text-md font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-            >
-              Say Hello
-            </a>
-          </div>
+          <EmailForm />
         </div>
       </div>
       <Footer />

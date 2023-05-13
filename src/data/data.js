@@ -7,6 +7,7 @@ import {
   faRobot,
   faArrowsRotate,
   faSpinner,
+  faLeaf,
 } from '@fortawesome/free-solid-svg-icons'
 
 export const skillCards = [
@@ -69,6 +70,17 @@ export const projectCards = [
     labelIcon: faDroplet,
     labelIconColor: 'text-yellow-400',
     viewLink: '/kolor',
+  },
+  {
+    id: 4,
+    title: 'MongoDB',
+    description: 'An all in one MongoDB content driven website.',
+    link: 'https://documentation-kalasky.vercel.app/',
+    github: 'https://github.com/Kalasky/documentation',
+    technologies: ['MongoDB', 'Express.js', 'React', 'Node.js', 'Tailwind'],
+    labelIcon: faLeaf,
+    labelIconColor: 'text-green-400',
+    viewLink: '/mongodocs',
   },
 ]
 

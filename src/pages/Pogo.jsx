@@ -233,7 +233,7 @@ const Pogo = () => {
                     With features such as Firebase Image Storage, customizable user profiles, and an interactive Admin Dashboard,
                     users can effortlessly manage their content and create a unique presence.
                   </p>
-                  <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-white lg:max-w-none">
+                  <div className="mt-10 max-w-xl space-y-8 text-base leading-7 text-white lg:max-w-none">
                     {features.map((feature) => (
                       <div key={feature.name} className="relative pl-9">
                         <div className="inline font-semibold text-lime-400">
@@ -243,7 +243,7 @@ const Pogo = () => {
                         <div className="inline"> {feature.description}</div>
                       </div>
                     ))}
-                  </dl>
+                  </div>
                 </div>
               </div>
               <img src={imageSource} alt="Product screenshot" className=" lg:max-w-full rounded-xl shadow-xl" />
