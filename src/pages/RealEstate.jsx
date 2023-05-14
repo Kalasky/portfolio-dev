@@ -277,7 +277,11 @@ const RealEstate = () => {
             >
               Contact Functionality
             </h2>
-            <img src={contact} alt="Product screenshot" className="mt-24 m-auto text-center lg:max-w-full rounded-xl shadow-xl w-3/4" />
+            <img
+              src={contact}
+              alt="Product screenshot"
+              className="mt-24 m-auto text-center lg:max-w-full rounded-xl shadow-xl w-3/4"
+            />
             <h2
               className="lg:mt-40 max-sm:mt-20 sm:mt-24 font-semibold text-gray-100 max-sm:text-4xl sm:text-6xl text-center"
               id="sponsor"
