@@ -4,15 +4,11 @@ import { Dialog } from '@headlessui/react'
 import {
   AdjustmentsVerticalIcon,
   Bars3Icon,
-  ChevronUpIcon,
   ClockIcon,
   CubeTransparentIcon,
-  LinkIcon,
-  WrenchIcon,
   XMarkIcon,
   DevicePhoneMobileIcon,
   ShieldCheckIcon,
-  Cog8ToothIcon,
 } from '@heroicons/react/24/outline'
 import { motion } from 'framer-motion'
 
@@ -29,7 +25,6 @@ import { scrollToSection } from '../utils/utils'
 
 // components
 import Footer from '../components/Footer'
-import Sidebar from '../components/Sidebar'
 import { GlowGreenPrimary } from '../components/Buttons'
 
 const navigation = [

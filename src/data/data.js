@@ -8,6 +8,7 @@ import {
   faArrowsRotate,
   faSpinner,
   faLeaf,
+  faHouse,
 } from '@fortawesome/free-solid-svg-icons'
 
 export const skillCards = [
@@ -77,10 +78,21 @@ export const projectCards = [
     description: 'An all in one MongoDB content driven website.',
     link: 'https://documentation-kalasky.vercel.app/',
     github: 'https://github.com/Kalasky/documentation',
-    technologies: ['MongoDB', 'Express.js', 'React', 'Node.js', 'Tailwind'],
+    technologies: ['Firebase', 'Express.js', 'React', 'Node.js', 'Tailwind'],
     labelIcon: faLeaf,
     labelIconColor: 'text-green-400',
     viewLink: '/mongodocs',
+  },
+  {
+    id: 5,
+    title: 'Real Estate',
+    description: 'Real estate website to show off their properties.',
+    link: 'https://real-estate-kalasky.vercel.app/',
+    github: 'https://github.com/Kalasky/real-estate',
+    technologies: ['React', 'Node.js', 'Tailwind', 'Framer Motion'],
+    labelIcon: faHouse,
+    labelIconColor: 'text-pink-600',
+    viewLink: '/real-estate',
   },
 ]
 

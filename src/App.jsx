@@ -7,6 +7,7 @@ import Spotifly from './pages/Spotifly'
 import Kolor from './pages/Kolor'
 import Pogo from './pages/Pogo'
 import MongoDocs from './pages/MongoDocs'
+import RealEstate from './pages/RealEstate'
 import MainLayout from './MainLayout'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path="/kolor" element={<Kolor />} />
             <Route path="/pogo" element={<Pogo />} />
             <Route path="/mongodocs" element={<MongoDocs />} />
+            <Route path="/real-estate" element={<RealEstate />} />
           </Routes>
         </MainLayout>
       </BrowserRouter>
