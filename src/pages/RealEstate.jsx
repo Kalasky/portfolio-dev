@@ -201,14 +201,12 @@ const RealEstate = () => {
                 <div className="lg:pr-8 lg:pt-4 col-span-1 max-sm:col-span-2">
                   <div className="lg:max-w-lg">
                     <h2 className="text-base font-semibold leading-7 text-lime-400">MERN Website</h2>
-                    <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                      MongoDB: The Developer Data Platform
-                    </p>
+                    <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Real Estate</p>
                     <p className="mt-6 text-lg leading-8 text-white">
-                      Stay updated on the latest software releases, libraries, and frameworks with this websites comprehensive
-                      release information system. Find quick answers to your questions through the organized and easily layed out
-                      documentation. Immerse yourself in the developer community with engaging blog posts, industry insights, and
-                      coding best practices.
+                      A website that showcases a real estate company's listings and allows users to contact the company serves as
+                      a valuable platform for both potential buyers and the real estate company itself. This online platform
+                      enables the company to present its properties in an engaging and informative manner, while providing users
+                      with an intuitive and convenient way to explore available listings and express their interest.
                     </p>
                   </div>
                   <div className="mt-20">
