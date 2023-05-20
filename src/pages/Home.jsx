@@ -21,7 +21,6 @@ const navigation = [
   { name: 'Skills', sectionId: 'skills' },
   { name: 'Projects', sectionId: 'projects' },
   { name: 'Contact', sectionId: 'contact' },
-  { name: 'Resume', sectionId: '' },
 ]
 
 const Home = () => {
