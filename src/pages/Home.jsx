@@ -89,7 +89,7 @@ const Home = () => {
               className="hero text-4xl text-white m-auto no-underline"
               style={{ position: 'relative', fontFamily: 'Merriweather Sans, sans-serif' }}
             >
-              RK
+              rk.
             </a>
           </div>
           <div className="flex lg:hidden">

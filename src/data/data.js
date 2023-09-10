@@ -8,7 +8,6 @@ import {
   faArrowsRotate,
   faSpinner,
   faLeaf,
-  faHouse,
 } from '@fortawesome/free-solid-svg-icons'
 
 export const skillCards = [
@@ -50,18 +49,6 @@ export const projectCards = [
     viewLink: '/spotifly',
   },
   {
-    id: 2,
-    title: 'Pogo Guide',
-    description:
-      'Developed with the goal of providing the Pogostuck community with a comprehensive guide. Running on the MERN stack with a full authentication system.',
-    link: 'https://github.com/Kalasky/pogo-guide',
-    github: 'https://github.com/Kalasky/pogo-guide',
-    technologies: ['React', 'MongoDB', 'Tailwindcss', 'Express.js', 'JWT'],
-    labelIcon: faReact,
-    labelIconColor: 'text-violet-500',
-    viewLink: '/pogo',
-  },
-  {
     id: 3,
     title: 'Kolor',
     description: 'Inspired by a Twitch streamer I saw using the same system but manually. I decided to automate it.',
@@ -82,17 +69,6 @@ export const projectCards = [
     labelIcon: faLeaf,
     labelIconColor: 'text-green-400',
     viewLink: '/mongodocs',
-  },
-  {
-    id: 5,
-    title: 'Real Estate',
-    description: 'Real estate website to show off their properties.',
-    link: 'https://real-estate-kalasky.vercel.app/',
-    github: 'https://github.com/Kalasky/real-estate',
-    technologies: ['React', 'Node.js', 'Tailwind', 'Framer Motion'],
-    labelIcon: faHouse,
-    labelIconColor: 'text-pink-600',
-    viewLink: '/real-estate',
   },
 ]
 
