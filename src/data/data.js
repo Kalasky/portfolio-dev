@@ -40,7 +40,7 @@ export const projectCards = [
     id: 1,
     title: 'Spotifly',
     description:
-      'Bridges the gap between Spotify and Twitch. Running on event subscriptions for instant API responses andd complete playback control.',
+      'Bridges the gap between Spotify and Twitch. Running on event subscriptions for instant API responses and complete playback control.',
     link: 'https://github.com/Kalasky/spotifly#readme',
     github: 'https://github.com/Kalasky/spotifly',
     technologies: ['MongoDB', 'Express.js', 'Twitch API', 'Spotify API', 'Discord API'],
