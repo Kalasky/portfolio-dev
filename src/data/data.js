@@ -8,6 +8,7 @@ import {
   faArrowsRotate,
   faSpinner,
   faLeaf,
+  faPaperPlane,
 } from '@fortawesome/free-solid-svg-icons'
 
 export const skillCards = [
@@ -47,6 +48,18 @@ export const projectCards = [
     labelIcon: faSpotify,
     labelIconColor: 'text-lime-400',
     viewLink: '/spotifly',
+  },
+  {
+    id: 2,
+    title: 'aitinerary',
+    description:
+      'Plan your trips in seconds with Ai Magic. aitinerary is a travel planning app that uses ChatGPT to help you plan your trips in seconds.', 
+    link: 'https://aitinerary.quest/surprise',
+    github: 'https://github.com/Kalasky/aitinerary',
+    technologies: ['MongoDB', 'Express.js', 'React', 'Node', 'Google Maps API', 'OpenAI API', 'Pexels API', 'Docker', 'Radix-UI', 'Tailwind'],
+    labelIcon: faPaperPlane,
+    labelIconColor: 'text-blue-400',
+    viewLink: '/aitinerary',
   },
   {
     id: 3,
